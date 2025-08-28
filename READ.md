@@ -51,7 +51,6 @@ A Streamlit application that extracts structured data from Greek legal documents
 ```bash
 git clone https://github.com/gchar00/legal-doc-extractor.git
 cd legal-doc-extractor
-1. **Run the app** locally:
 ```
 2. Install dependencies
 ```bash
@@ -69,5 +68,6 @@ http://localhost:8501
    - Clean the text from OCR noise
    - Parse the key structured information
    - Display extracted text, cleaned text, and structured JSON
+
 
 
