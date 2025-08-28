@@ -46,20 +46,28 @@ A Streamlit application that extracts structured data from Greek legal documents
 
 ## How to Use the Streamlit App
 
-1. **Run the app** locally:
+1. **Clone this repository**:
 
 ```bash
+git clone https://github.com/gchar00/legal-doc-extractor.git
+cd legal-doc-extractor
+1. **Run the app** locally:
+```
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+3. Run streamlit app
+```bash
 streamlit run app.py
-
-2. Open the app in your browser:
-
+```
+4. Open the app in your browser:
 http://localhost:8501
-
-3. Enter your name and upload a PDF or image file (e.g., `simbolaio-agorapolisias-public.pdf`).
-
-4. The app will:
+5. Enter your name and upload a PDF or image file (e.g., `simbolaio-agorapolisias-public.pdf`).
+6. The app will:
    - Extract text from the document (OCR if needed)
    - Clean the text from OCR noise
    - Parse the key structured information
    - Display extracted text, cleaned text, and structured JSON
+
 
