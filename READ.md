@@ -62,12 +62,13 @@ streamlit run app.py
 ```
 4. Open the app in your browser:
 http://localhost:8501
-5. Enter your name and upload a PDF or image file (e.g., `simbolaio-agorapolisias-public.pdf`).
+5. Enter your name and upload a PDF or image file.
 6. The app will:
    - Extract text from the document (OCR if needed)
    - Clean the text from OCR noise
    - Parse the key structured information
    - Display extracted text, cleaned text, and structured JSON
+
 
 
 
